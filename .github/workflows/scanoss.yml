@@ -25,3 +25,5 @@ jobs:
         uses: scanoss/code-scan-action@v1
         with:
           policies: copyleft, undeclared
+          api.url: https://api.scanoss.com/scan/direct
+          api.key: ${{ secrets.SC_API_KEY }}
