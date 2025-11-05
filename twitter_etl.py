@@ -35,4 +35,4 @@ def run_twitter_etl():
     # Export the DataFrame as a CSV file named "AWS_twitter_data.csv"
     df.to_csv("s3://(s3_bucket)/(s3_folder)/(file_name).csv")
 
-    print("Twitter scraped and file saved successfully!")
+    print("Twitter scraped and file saved successfully!!")
