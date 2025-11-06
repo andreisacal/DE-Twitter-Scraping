@@ -1,0 +1,94 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "SCANOSS documentation",
+  "colors": {
+    "primary": "#6366F1",
+    "light": "#6366F1",
+    "dark": "#6366F1"
+  },
+  "background": {
+    "decoration": "gradient"
+  },
+  "fonts":{
+    "heading": {
+      "family": "Space Grotesk",
+      "weight": 700,
+      "format": "woff2"
+    },
+    "body": {
+      "family": "Space Grotesk",
+      "format": "woff2"
+    }
+  },
+  "favicon": "/scan-favicon.png",
+  "navigation": {
+    "versions": [
+      {
+        "version": "latest",
+        "pages": [
+          {
+            "group": "CONTENTS",
+            "pages": [
+              "index",
+              "en/latest",
+              "projects/Workbench/en/latest",
+              "en/latest/tools/cli",
+              {
+                "group": "Integrations",
+                "pages": [
+                  "projects/integration-docs/en/latest",
+                  "projects/integration-docs/en/latest/tools/gitlab",
+                  "projects/integration-docs/en/latest/tools/gha",
+                  "projects/integration-docs/en/latest/tools/ado"
+                ]
+              },
+              "projects/settings-file-docs/en/latest"
+            ]
+          },
+          {
+            "group": "LINKS",
+            "pages": [
+              "link/web",
+              "link/github",
+              "link/software"
+            ]
+          }
+        ]
+      }
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Blog",
+          "href": "https://www.scanoss.com/blog",
+          "icon": "newspaper"
+        }
+      ]
+    }
+  },
+  "logo": {
+    "light": "/logo/light.png",
+    "dark": "/logo/dark.png"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "About",
+        "href": "https://www.scanoss.com/about"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Contact Us",
+      "href": "https://www.scanoss.com/contact"
+    }
+  },
+  "footer": {
+    "socials": {
+      "x": "https://x.com/SCANOSS_",
+      "github": "https://github.com/scanoss",
+      "linkedin": "https://es.linkedin.com/company/scanoss"
+    }
+  }
+}
