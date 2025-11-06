@@ -21,7 +21,6 @@
       "format": "woff2"
     }
   },
-  "openapi": ["./openapi/weather.yaml"],
   "favicon": "/scan-favicon.png",
   "navigation": {
     "versions": [

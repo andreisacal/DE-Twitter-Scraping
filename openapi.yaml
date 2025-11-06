@@ -1,0 +1,29 @@
+openapi: 3.0.0
+info:
+  title: Weather Report API
+  version: 1.0.0
+  description: API documentation for the DE-Weather-Report service
+servers:
+  - url: https://api.yourdomain.com
+paths:
+  /weather:
+    get:
+      summary: Get current weather
+      parameters:
+        - name: city
+          in: query
+          required: true
+          schema:
+            type: string
+          description: City name
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  temperature:
+                    type: number
+                    example: 22.5
