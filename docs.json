@@ -10,7 +10,7 @@
   "background": {
     "decoration": "gradient"
   },
-  "fonts":{
+  "fonts": {
     "heading": {
       "family": "Space Grotesk",
       "weight": 700,
@@ -21,6 +21,7 @@
       "format": "woff2"
     }
   },
+  "openapi": ["./openapi/weather.yaml"],
   "favicon": "/scan-favicon.png",
   "navigation": {
     "versions": [
